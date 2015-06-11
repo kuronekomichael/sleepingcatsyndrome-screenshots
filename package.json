@@ -1,0 +1,48 @@
+{
+  "name": "saucelabs-for-sleepingcatsyndrome",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "sleepingcatsyndrome.com",
+  "author": {
+    "name": "kuronekomichael",
+    "email": "michael@cat.email.ne.jp",
+    "url": "sleepingcatsyndrome.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "sleepingcatsyndrome.com/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/saucelabs-for-sleepingcatsyndrome",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-env": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-simple-mocha": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-contrib-watch": "latest",
+    "wd": "latest",
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "lodash": "latest",
+    "colors": "latest",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}
